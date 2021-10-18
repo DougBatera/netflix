@@ -76,6 +76,11 @@ margin-top: 10px;
     transition: .3s ease all; /*suavisa a animação de passada de mouse*/
     cursor: pointer; /*quando passado o mouse em cima do botão, a seta vira um ponteiro diferente*/
  }
+ .item{
+    
+    cursor: -webkit-grabbing; /*quando passado o mouse em cima do botão, a seta vira um ponteiro diferente*/
+
+ }
  .botao:hover{ /*prorpiedades para que o botão mude de cor quando passamos o mouse*/
     background-color: white;
 color: black;
