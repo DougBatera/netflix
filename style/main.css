@@ -13,6 +13,7 @@ body{
 background: var(--preta);
 font-family: 'Arial', Times, serif;
 color: white;
+
 }
 
  header .container {
@@ -25,8 +26,9 @@ color: white;
  header .logo { /**/ /*Tratamentro de cor font e tamanho da logo (NETFLIX*/
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black';
+    font-family: 'StMarieThin';
     font-size: 40px;
+    
  }
 
  header nav a{ /*Tratamento da cor das fontes e espaçamento dos menus*/
@@ -42,8 +44,8 @@ color: white;
 
  .filme-principal{/*alterações na caixa do filme principal*/
 font-size: 16px; /*tamanho da fonte*/
-background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/img.capa.jpg'); /*link da imagem + um contraste para a imagem atraves do linear gradient*/
-height: 400px;/*tamanho da imagem*/
+background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/METALLICA.jpg'); /*link da imagem + um contraste para a imagem atraves do linear gradient*/
+height: px;/*tamanho da imagem*/
 background-size: cover; /*tamanho cobre a caixa toda*/
 
 display: flex;
@@ -57,7 +59,8 @@ margin-bottom: 40px; /*Margem da descrição do filme*/
 margin-top: 10px;
  }
  .filme-principal .titulo{
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'StMarieThin';
+    color: rgb(197, 13, 13) ;
     margin-top: 15%;
     font-size: 40px; /*tamanho da fonte do filme*/
  }
@@ -97,3 +100,12 @@ color: black;
 margin-top: 5px;
 
 }
+@font-face {
+    font-family: 'StMarieThin';
+    src: url('StMarie-Thin-webfont.eot');
+    src: url('StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('StMarie-Thin-webfont.woff') format('woff'),
+    url('StMarie-Thin-webfont.ttf') format('truetype'),
+    url('StMarie-Thin-webfont.svg#StMarieThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
